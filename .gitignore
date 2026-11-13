@@ -1,0 +1,23 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Local generated artifacts
+models/
+reports/
+artifacts/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision-mlops"
+version = "0.1.0"
+description = "CI/CD and MLOps for reproducible 8x8 digit classification"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy==2.3.5", "scikit-learn==1.8.0", "joblib==1.5.3", "fastapi==0.128.2", "uvicorn==0.38.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

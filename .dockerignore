@@ -1,0 +1,12 @@
+**/__pycache__/
+**/*.pyc
+.git/
+.github/
+.venv/
+tests/
+docs/
+reports/
+assets/
+*.ipynb
+*.zip
+models/metrics.json
