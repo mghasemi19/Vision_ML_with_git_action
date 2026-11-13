@@ -1,7 +1,6 @@
 """Candidate classifier, reference classifier, and evaluation metrics."""
 
 from sklearn.dummy import DummyClassifier
-from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, recall_score
 from sklearn.pipeline import Pipeline
